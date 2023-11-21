@@ -208,6 +208,13 @@ body {
   }
 }
 
+.blur {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  filter: blur(5px);
+}
+
 @media screen and (max-width: 1200px) {
   .header__container {
     padding-left: $padding-screen;
